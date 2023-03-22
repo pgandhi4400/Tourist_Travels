@@ -1,0 +1,61 @@
+*{
+    margin:0px;
+    padding: 0px;
+    /* font-family:'Josefin Sans',sans-serif; */
+}
+body{
+  background-color:#f5d4a9;
+  background-image: url(India-m-removebg-preview.png);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-size: 100vh;
+}
+#form{
+  margin: 100px;
+  height:250px;
+  width:450px;
+  border:2px dotted rgb(192, 125, 1);
+  border-radius: 20px;
+  padding:160px
+}
+p{
+  color:rgb(113, 74, 2);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+label{
+  
+  padding-left: 10px;
+  color:rgb(113, 74, 2);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: linear-gradient(to  bottom right, f5d4a9);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(137, 90, 3);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: rgb(211, 89, 33);
+  color: rgb(240, 193, 3);
+}
+
+
+/* .active {
+  background-color: #0d88f5;
+  text-align: center ;
+
+} */

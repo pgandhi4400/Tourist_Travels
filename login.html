@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="login.css">
+        <style>
+            .input-form{
+                width: 200px;
+                height: 30px;
+                border: 1px solid gray;
+                border-radius: 10px;
+                padding-left: 20px;
+            }
+
+            .login-btn{
+                background-color: rgba(180, 119, 21, 0.566);
+                color: rgb(0, 0, 0);
+                font-size: 20px;
+                font-weight: 100;
+                width: 100px;
+                height: 30px;
+            }
+            p{
+                font-size: 35px;
+            }
+           
+            
+        </style>
+    </head>
+    <body>
+       
+        <nav>
+            <ul>
+              <li><a class="active" href="index.html">Home</a></li>
+              <li style="float:right"><a href="login.html" class="btnone">Login/Signup</a></li>
+              <li style="float:right"><a href="contact.html">Contact Us</a></li>
+              <li style="float:right"><a href="about.html">About Us</a></li>
+            </ul>
+            </nav>
+        <center>
+        <div id="form">
+            <p>Login your account</p>
+            <br/>
+            <form onsubmit="Validate(); return false">
+            <br/>
+            <label>USERNAME:</label>
+            <input 
+            id="user"
+            class="input-form"
+            type="text"
+            placeholder="Username"
+            />
+            <br/>
+            <br/>
+            <label>PASSWORD:</label>
+            <input
+            id="pass"
+            class="input-form" 
+            type="password"
+            placeholder="Enter password"
+            />
+            <br>
+            <br>       
+            <button onclick="myFunction()" type="submit" class="login-btn"> LOGIN </button>
+        </form>
+        </div>
+        <script>
+            function myFunction() {
+            alert("Check the all details you have entered");}
+            var data = {
+                username: "prince",
+                password: "123" ,
+            }; 
+        const Validate = () => {
+            myFunction();
+        var passElement = document.getElementById("pass");
+        var userElement = document.getElementById("user");
+        if (
+          userElement.value === data.userName &&
+          passElement.value === data.password
+        ) {
+          window.location.href = "";
+        } else {
+          window.location.href = "https://www.google.com";
+        }
+        };
+        </script>
+       </center>
+    </body>
+</html>

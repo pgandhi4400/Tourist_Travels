@@ -1,0 +1,58 @@
+*{
+    margin:0px;
+    padding: 0px;
+    /* font-family:'Josefin Sans',sans-serif; */
+}
+body{
+  background-color:#f5d4a9;
+  background-image: url(India-m-removebg-preview.png);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-size: 100vh;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: linear-gradient(to  bottom right, f5d4a9);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(137, 90, 3);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: rgb(211, 89, 33);
+  color: rgb(240, 193, 3);
+}
+
+/* .active {
+  background-color: #0d88f5;
+  text-align: center ;
+
+} */
+h1{
+  text-align: center;
+  padding: 30px;
+  color: rgb(137, 90, 3);
+  text-shadow: 1px 1px 3px black;
+
+}
+
+p{
+text-align: center;
+padding: 130px;
+font-size: 22px;
+color: #a85f01;
+text-shadow: #111;
+}

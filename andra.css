@@ -1,0 +1,109 @@
+body{
+    background-image: linear-gradient(to  bottom right, rgb(232, 252, 214), rgb(192, 241, 44));
+}
+#heading{
+    text-align: center;
+    margin:auto;
+    font-size: 2em;
+    color: rgb(240, 104, 104);
+    transition-duration: 2s;
+    text-shadow: 2px 1px 5px rgb(189, 208, 15);
+    animation-duration: 1.5s;
+    animation-name:Jaan;
+}
+@keyframes Jaan{
+    0%{
+        transform:translateY(50vh);
+        font-size: 2rem;
+    }
+    100%{
+        transform:translateY(0vh);
+    }
+}
+
+#heading:hover{
+    transform:scale(2);
+}
+table{
+    margin: 40px auto;
+}
+.col{
+    text-align: center;
+    
+
+}
+.andra_heading{
+    color:rgba(5, 104, 8, 0.711); ;
+}
+.andra_image{
+    border-radius: 15px;
+    /* border: 2px dotted green; */
+    transition-duration: 1s;
+}
+
+.andra_image:hover{
+    transform:scale(1.1);
+}
+.andhra_para{
+    padding-left: 12px;
+    font-family:'ubuntu', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    font-size: 18px;
+}
+
+.button {
+    border: none;
+    background-color: rgba(181, 216, 63, 0.5);
+    color: white;
+    width: 180px;
+    padding: 16px 32px;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 20px 45%;
+    text-align: center;
+    color: black;
+  }
+  
+  .button:hover {
+    background-color: #39ae41;
+    color: white;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+/* 
+  #hhhh {
+    width: 20%;
+    top: 50%;
+    position: absolute;
+    left: 40%;
+    border-bottom: 5px solid white;
+    overflow: hidden;
+    animation: animate 2s linear forwards;
+}
+
+#hhhh {
+    color: white;
+}
+
+@keyframes animate {
+    0% {
+        width: 0px;
+        height: 0px;
+    }
+    30% {
+        width: px;
+        height: 0px;
+    }
+    60% {
+        width: 50px;
+        height: 80px;
+    }
+} */
